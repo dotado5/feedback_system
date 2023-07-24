@@ -62,7 +62,7 @@ function Admin() {
   };
 
   const Practical_test_Update = async () => {
-    const response = await fetch("http://127.0.0.1:5000/pratical-test-update", {
+    const response = await fetch("https://bsc-project-a36k.onrender.com/pratical-test-update", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -83,7 +83,7 @@ function Admin() {
   };
 
   const Practical_Update = async () => {
-    const response = await fetch("http://127.0.0.1:5000/pratical-update", {
+    const response = await fetch("https://bsc-project-a36k.onrender.com/pratical-update", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -104,7 +104,7 @@ function Admin() {
   };
 
   const Tutorial_Update = async () => {
-    const response = await fetch("http://127.0.0.1:5000/tutorial-update", {
+    const response = await fetch("https://bsc-project-a36k.onrender.com/tutorial-update", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
