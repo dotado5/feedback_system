@@ -3,7 +3,7 @@ import styles from "../../../styles/dashboards.module.css";
 import Sidebar from "./sidebar";
 import axios from "axios";
 
-export default function createAccount() {
+export default function CreateAccount() {
   const [matric, setMatric] = useState("");
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
