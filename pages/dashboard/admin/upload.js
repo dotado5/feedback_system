@@ -132,7 +132,7 @@ function Admin() {
       <div className={styles.admin_cont}>
         <h1>Upload User Result</h1>
         <div className={styles.details}>
-          <label htmlFor="name">Student's Name</label>
+          <label htmlFor="name">Student Name</label>
           <input
             type="text"
             id="name"
