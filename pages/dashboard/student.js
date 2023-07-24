@@ -7,14 +7,28 @@ function Student() {
   const user = useSelector(selectUser);
   console.log(user);
 
-  const username = window.localStorage.getItem("name");
-  const matric = window.localStorage.getItem("matric");
-  const tutorial = window.localStorage.getItem("tutorial");
-  const practical = window.localStorage.getItem("practical");
-  const test = window.localStorage.getItem("test");
-  const exam = window.localStorage.getItem("exam");
-  const total = window.localStorage.getItem("total");
-  const feedback = window.localStorage.getItem("feedback");
+  const username =
+    typeof window !== "undefined" ? window.localStorage.getItem("name") : "";
+  const matric =
+    typeof window !== "undefined" ? window.localStorage.getItem("matric") : "";
+  const tutorial =
+    typeof window !== "undefined"
+      ? window.localStorage.getItem("tutorial")
+      : "";
+  const practical =
+    typeof window !== "undefined"
+      ? window.localStorage.getItem("practical")
+      : "";
+  const test =
+    typeof window !== "undefined" ? window.localStorage.getItem("test") : "";
+  const exam =
+    typeof window !== "undefined" ? window.localStorage.getItem("exam") : "";
+  const total =
+    typeof window !== "undefined" ? window.localStorage.getItem("total") : "";
+  const feedback =
+    typeof window !== "undefined"
+      ? window.localStorage.getItem("feedback")
+      : "";
 
   return (
     <div className={styles.main}>
