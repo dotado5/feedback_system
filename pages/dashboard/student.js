@@ -3,7 +3,7 @@ import styles from "..//../styles/dashboards.module.css";
 import { useSelector } from "react-redux";
 import { selectUser } from "@/feature/userSlice";
 
-function student() {
+function Student() {
   const user = useSelector(selectUser);
   console.log(user);
 
