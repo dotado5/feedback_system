@@ -37,7 +37,7 @@ export default function CreateAccount() {
       <div className={styles.admin_cont}>
         <h1>Create User</h1>
         <div className={styles.details}>
-          <label htmlFor="name">Student's Name</label>
+          <label htmlFor="name">Student Name</label>
           <input
             type="text"
             id="name"
