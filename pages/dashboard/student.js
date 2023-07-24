@@ -66,4 +66,4 @@ function Student() {
   );
 }
 
-export default student;
+export default Student;
