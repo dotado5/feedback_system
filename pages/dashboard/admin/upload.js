@@ -198,4 +198,4 @@ function Admin() {
   );
 }
 
-export default admin;
+export default Admin;
