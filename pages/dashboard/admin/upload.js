@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "../../../styles/dashboards.module.css";
 import Sidebar from "./sidebar";
 
-function admin() {
+function Admin() {
   const [matric, setMatric] = useState("");
   const [name, setName] = useState("");
   const [scores, setScores] = useState({
