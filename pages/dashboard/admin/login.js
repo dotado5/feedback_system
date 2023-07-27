@@ -1,8 +1,13 @@
 import Head from "next/head";
 import React from "react";
 import styles from "@/styles/Home.module.css";
+import { useRouter } from "next/router";
 
 export default function AdminLogin() {
+
+  function Signin() {
+    router.push("/dashboard/student");
+  }
   return (
     <>
       <Head>
@@ -35,8 +40,7 @@ export default function AdminLogin() {
                 id="password"
                 placeholder="Enter your unique password"
               />
-              <span>Forgot password?</span>
-              <button>Log in</button>
+              <button onClick={Signin}>Log in</button>
             </form>
           </div>
         </section>
